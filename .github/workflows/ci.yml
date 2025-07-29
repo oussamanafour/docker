@@ -1,4 +1,5 @@
 name: CI
+
 on:
   push:
     branches:
@@ -24,3 +25,5 @@ jobs:
 
     - name: Run tests
       run: pytest
+
+      
